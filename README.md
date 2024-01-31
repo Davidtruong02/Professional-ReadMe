@@ -1,11 +1,11 @@
-# 1
+# 2
 
   ## Description
   undefined
   undefined
   undefined
   undefined
-  1
+  2
   
   ## Table of Contents (Optional)
   
@@ -16,32 +16,32 @@
   - [License](#license)
   
   ## Installation
-  1
+  2
   
   ## Usage
-  1
+  2
    
   
   ## Credits
-  1
+  2
   
   ## License
-  Apache License 2.0
+  GNU General Public License v3.0
 
   ## License
 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)] (https://opensource.org/licenses/Apache-2.0)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)] (https://www.gnu.org/licenses/gpl-3.0.html)
 
   
   
   ## Tests
-  1
+  2
 
 
   ## GitHub Username
-  ('https://github.com/1')
+  ('https://github.com/2')
 
   ## Email
-  1
+  
   
   
