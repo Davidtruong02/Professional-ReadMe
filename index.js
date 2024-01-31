@@ -6,7 +6,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
 
-// TODO: Create an array of questions for user input
+// TODO: Create an array of questions for user input.
 const questions = [
     {
       type: 'input',
@@ -76,12 +76,12 @@ function init() {
             const { title } = answers;
             
         
-            const fileName = title.toLowerCase().replace(" ", "-");
+           // const fileName = title.toLowerCase().replace(" ", "-");
             fs.writeFile(`README.md`, fileContents, (err) => {
               if (err) {
                 console.error("Error writing file:", err);
               } else {
-                console.log("Success!");
+                console.log("README.md file created successfully!");
               }
             });
           });

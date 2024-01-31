@@ -90,4 +90,4 @@ const generateMarkdown = (userInput) => {
   return outputMarkdown;
 }
 
-module.exports = generateMarkdown;
+module.exports = generateMarkdown; // This is the export of the generateMarkdown function
