@@ -2,10 +2,10 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   const badgeOptionsObj = {
-    'Apache License 2.0': '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]',
-    'GNU General Public License v3.0': '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]',
-    'MIT License': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]',
-    'BSN 3-Clause "New" or "Revised"': '[![License: BSN](https://img.shields.io/badge/License-BSN%203--Clause-blue.svg)]',
+    'Apache License 2.0': '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)',
+    'GNU General Public License v3.0': '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)',
+    'MIT License': '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)',
+    'BSN 3-Clause "New" or "Revised"': '![License: BSN](https://img.shields.io/badge/License-BSN%203--Clause-blue.svg)',
   };
 
   return badgeOptionsObj[license] || '';
@@ -49,17 +49,18 @@ const generateMarkdown = (userInput) => {
   ## Description
   ${description}
   
+
   ## Table of Contents
-  
-  
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
   
+
   ## Installation
   ${installation}
   
+
   ## Usage
   ${usage}
    
@@ -67,6 +68,7 @@ const generateMarkdown = (userInput) => {
   ## Credits
   ${contributing}
   
+
   ## License
   ${licenseSection}
 
@@ -78,8 +80,11 @@ const generateMarkdown = (userInput) => {
   ## GitHub Username
   ('https://github.com/${githubusername}')
 
-  ## Email
-  ${email}
+ 
+  ## Questions
+  - If you have any questions, please contact me at my github profile provided above
+  - Or you can email me at: ${email}
+
   
   `
   return outputMarkdown;
