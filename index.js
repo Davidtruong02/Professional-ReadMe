@@ -58,6 +58,9 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+
+  fs.writeFileSync(fileName, data);
+  console.log("README.md file created successfully!");
 }
 
 
@@ -73,7 +76,7 @@ function init() {
             
         
             const fileName = title.toLowerCase().replace(" ", "-");
-            fs.writeFile(`${fileName}.md`, fileContents, (err) => {
+            fs.writeFile(`README.md`, fileContents, (err) => {
               if (err) {
                 console.error("Error writing file:", err);
               } else {
